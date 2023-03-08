@@ -6,7 +6,7 @@
         {
             Random random = new Random();
             double odds = 0.75;
-            Guy player = new Guy() { Name = "The player", Cash = 100 };
+            Player player = new Player() { Name = "The player", Cash = 100 };
 
             Console.WriteLine("Welcome to the casino. The odds are " + odds);
             while (true)
